@@ -1,20 +1,135 @@
 {
+  "id": "/",
   "name": "LAWYERS CONNECT",
-  "short_name": "LAWYERS CONNECT",
-  "start_url": "/",
+  "short_name": "Lawyers",
+  "description": "LAWYERS CONNECT is a professional legal platform that connects clients with trusted lawyers for legal consultation, case management, appointments, and legal services.",
+
+  "lang": "en",
+  "dir": "ltr",
+
+  "start_url": "/?utm_source=pwa",
+  "scope": "/",
+
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone",
+    "minimal-ui"
+  ],
+
+  "orientation": "any",
+
   "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "theme_color": "#0B3D91",
+
+  "categories": [
+    "business",
+    "productivity",
+    "social",
+    "utilities"
+  ],
+
   "icons": [
     {
-      "src": "/applogo.png",
-      "sizes": "192x192",
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "/applogo.png",
-      "sizes": "512x512",
+      "src": "/icons/icon-96x96.png",
+      "sizes": "96x96",
       "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
-  ]
+  ],
+
+  "shortcuts": [
+    {
+      "name": "Find Lawyers",
+      "short_name": "Lawyers",
+      "description": "Browse available lawyers",
+      "url": "/lawyers",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Appointments",
+      "short_name": "Appointments",
+      "description": "View your appointments",
+      "url": "/appointments",
+      "icons": [
+        {
+          "src": "/icons/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "/screenshots/mobile-home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Home Screen"
+    },
+    {
+      "src": "/screenshots/mobile-profile.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "User Profile"
+    },
+    {
+      "src": "/screenshots/desktop-home.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop Dashboard"
+    }
+  ],
+
+  "prefer_related_applications": false
 }
